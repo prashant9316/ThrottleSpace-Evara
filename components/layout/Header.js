@@ -35,16 +35,16 @@ const Header = ({
                                     <ul>
                                         <li>
                                             <i className="fi-rs-smartphone"></i>
-                                            <Link href="/#">
-                                                <a>(+01) - 2345 - 6789</a>
+                                            <Link href="tel:+919319616722">
+                                                <a>+91-93196 16722</a>
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <i className="fi-rs-marker"></i>
                                             <Link href="/page-contact">
                                                 <a>Our location</a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
@@ -56,9 +56,9 @@ const Header = ({
                                     >
                                         <ul>
                                             <li>
-                                                Get great devices up to 50% off
+                                                Same Day Shipping.
                                                 <Link href="/products/shop-grid-right">
-                                                    <a> View details</a>
+                                                    <a> Shop Now</a>
                                                 </Link>
                                             </li>
                                         </ul>
@@ -68,7 +68,7 @@ const Header = ({
                             <div className="col-xl-3 col-lg-4">
                                 <div className="header-info header-info-right">
                                     <ul>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/#">
                                                 <a className="language-dropdown-active">
                                                     <i className="fi-rs-world"></i>
@@ -111,7 +111,7 @@ const Header = ({
                                                     </Link>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <i className="fi-rs-user"></i>
                                             <Link href="/page-login-register">
@@ -143,7 +143,7 @@ const Header = ({
                                 </div>
                                 <div className="header-action-right">
                                     <div className="header-action-2">
-                                        <div className="header-action-icon-2">
+                                        {/* <div className="header-action-icon-2">
                                             <Link href="/shop-compare">
                                                 <a>
                                                     <img
@@ -156,13 +156,13 @@ const Header = ({
                                                     </span>
                                                 </a>
                                             </Link>
-                                        </div>
+                                        </div> */}
                                         <div className="header-action-icon-2">
                                             <Link href="/shop-wishlist">
                                                 <a>
                                                     <img
                                                         className="svgInject"
-                                                        alt="Evara"
+                                                        alt="throttlespace"
                                                         src="/assets/imgs/theme/icons/icon-heart.svg"
                                                     />
                                                     <span className="pro-count blue">

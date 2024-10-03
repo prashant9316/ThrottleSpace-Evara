@@ -13,10 +13,10 @@ const Bottom = () => {
                                     alt=""
                                 />
                                 <div className="banner-text">
-                                    <span>Shoes Zone</span>
+                                    <span>Offer Zone</span>
                                     <h4>
-                                        Save 17% on <br />
-                                        All Items
+                                        Save upto 10% on <br />
+                                        All Accessories
                                     </h4>
                                     <Link href="/products/shop-grid-right">
                                         <a>
@@ -29,7 +29,7 @@ const Bottom = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 mb-sm-5 mb-md-0">
                             <h4 className="section-title style-1 mb-30 wow fadeIn animated">
-                                Deals & Outlet
+                                Connectors
                             </h4>
                             <div className="product-list-small wow fadeIn animated">
                                 <article className="row align-items-center">
@@ -47,14 +47,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Fish Print Patched T-shirt
+                                                    XT-60 connectors
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>
@@ -74,14 +74,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Vintage Floral Print Dress
+                                                    XT-90 Connectors
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ const Bottom = () => {
                                         <Link href="/products/shop-grid-right">
                                             <a>
                                                 <img
-                                                    src="/assets/imgs/shop/thumbnail-5.jpg"
+                                                    src="/assets/imgs/shop/thumbnail-5.webp"
                                                     alt=""
                                                 />
                                             </a>
@@ -101,15 +101,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Multi-color Stripe Circle
-                                                    Print T-Shirt
+                                                    XT-60 to XT-90 Adapter
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>
@@ -118,7 +117,7 @@ const Bottom = () => {
                         </div>
                         <div className="col-lg-3 col-md-6 mb-sm-5 mb-md-0">
                             <h4 className="section-title style-1 mb-30 wow fadeIn animated">
-                                Top Selling
+                                Wires
                             </h4>
                             <div className="product-list-small wow fadeIn animated">
                                 <article className="row align-items-center">
@@ -126,7 +125,7 @@ const Bottom = () => {
                                         <Link href="/products/shop-grid-right">
                                             <a>
                                                 <img
-                                                    src="/assets/imgs/shop/thumbnail-6.jpg"
+                                                    src="/assets/imgs/shop/thumbnail-6.webp"
                                                     alt=""
                                                 />
                                             </a>
@@ -136,15 +135,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Geometric Printed Long
-                                                    Sleeve Blosue
+                                                    Heat Shrink Tubes
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>
@@ -154,7 +152,7 @@ const Bottom = () => {
                                         <Link href="/products/shop-grid-right">
                                             <a>
                                                 <img
-                                                    src="/assets/imgs/shop/thumbnail-7.jpg"
+                                                    src="/assets/imgs/shop/thumbnail-7.webp"
                                                     alt=""
                                                 />
                                             </a>
@@ -164,14 +162,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Print Patchwork Maxi Dress
+                                                    Nuts & Bolts
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>
@@ -181,7 +179,7 @@ const Bottom = () => {
                                         <Link href="/products/shop-grid-right">
                                             <a>
                                                 <img
-                                                    src="/assets/imgs/shop/thumbnail-8.jpg"
+                                                    src="/assets/imgs/shop/thumbnail-8.webp"
                                                     alt=""
                                                 />
                                             </a>
@@ -191,15 +189,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Daisy Floral Print Straps
-                                                    Jumpsuit
+                                                    Multi-meter
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>
@@ -208,7 +205,7 @@ const Bottom = () => {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <h4 className="section-title style-1 mb-30 wow fadeIn animated">
-                                Hot Releases
+                                Tools
                             </h4>
                             <div className="product-list-small wow fadeIn animated">
                                 <article className="row align-items-center">
@@ -226,15 +223,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Floral Print Casual Cotton
-                                                    Dress
+                                                    Toolkit
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>
@@ -254,15 +250,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Ruffled Solid Long Sleeve
-                                                    Blouse
+                                                    Screwdrivers
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>
@@ -272,7 +267,7 @@ const Bottom = () => {
                                         <Link href="/products/shop-grid-right">
                                             <a>
                                                 <img
-                                                    src="/assets/imgs/shop/thumbnail-2.jpg"
+                                                    src="/assets/imgs/shop/thumbnail-2.webp"
                                                     alt=""
                                                 />
                                             </a>
@@ -282,15 +277,14 @@ const Bottom = () => {
                                         <h4 className="title-small">
                                             <Link href="/products/shop-grid-right">
                                                 <a>
-                                                    Multi-color Print V-neck
-                                                    T-Shirt
+                                                    Soldering Iron
                                                 </a>
                                             </Link>
                                         </h4>
                                         <div className="product-price">
-                                            <span>$238.85 </span>
+                                            <span>₹238.85 </span>
                                             <span className="old-price">
-                                                $245.8
+                                                ₹245.8
                                             </span>
                                         </div>
                                     </div>

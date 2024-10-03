@@ -9,8 +9,6 @@ SwiperCore.use([Navigation]);
 const NewArrival = () => {
     const [newArrival, setNewArrival] = useState([]);
 
-    // console.log(newArrival);
-
     useEffect(() => {
         fetchProducts();
     }, []);
@@ -34,7 +32,6 @@ const NewArrival = () => {
             <Swiper
                 slidesPerView={4}
                 spaceBetween={15}
-                //loop={false}
                 navigation={{
                     prevEl: ".custom_prev_n",
                     nextEl: ".custom_next_n",

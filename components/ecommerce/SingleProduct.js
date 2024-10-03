@@ -120,8 +120,8 @@ const SingleProduct = ({
                         </span>
                     </div>
                     <div className="product-price">
-                        <span>${product.price} </span>
-                        <span className="old-price">{product.oldPrice ? `$ ${product.oldPrice}`:null}</span>
+                        <span>₹{product.price} </span>
+                        <span className="old-price">{product.oldPrice ? `₹ ${product.oldPrice}`:null}</span>
                     </div>
                     <div className="product-action-1 show">
                         <a

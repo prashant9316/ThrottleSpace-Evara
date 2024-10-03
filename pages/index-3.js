@@ -1,78 +1,31 @@
 import FeatchTab from "../components/ecommerce/fetchTab";
+import FeatchTab2 from "../components/ecommerce/fetchTabSlider";
 import Banner2 from "../components/elements/Banner2";
-import Layout from "../components/layout/Layout";
-import FetchTabSlider from "./../components/ecommerce/fetchTabSlider";
+import Bottom from "../components/elements/Bottom";
+import QuickView from "./../components/ecommerce/QuickView";
 import Banner3 from "./../components/elements/Banner3";
 import Banner4 from "./../components/elements/Banner4";
-import Banner5 from './../components/elements/Banner5';
+import Banner5 from "./../components/elements/Banner5";
 import BannerFeatures from "./../components/elements/BannerFeatures";
 import Deals1 from "./../components/elements/Deals1";
 import Deals2 from "./../components/elements/Deals2";
 import HomeBlog from "./../components/elements/HomeBlog";
-import IntroPopup from './../components/elements/IntroPopup';
+import IntroPopup from "./../components/elements/IntroPopup";
+import Layout from "./../components/layout/Layout";
 import BrandSlider from "./../components/sliders/Brand";
 import CategorySlider from "./../components/sliders/Category";
-import Intro3 from "./../components/sliders/intro3";
+import Intro1 from "./../components/sliders/Intro1";
 import NewArrival from "./../components/sliders/NewArrival";
-import Link from "next/link";
-import Bottom from './../components/elements/Bottom';
 
 
-function Test() {
+export default function Home() {
     return (
         <>
-         <IntroPopup/>
-         <Layout noBreadcrumb="d-none" headerStyle="header-style-3">
-                <section className="home-slider position-relative pt-25 pb-20">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-9">
-                                <div className="position-relative">
-                                    <Intro3 />
-                                </div>
-                            </div>
-                            <div className="col-lg-3 d-md-none d-lg-block">
-                                <div className="banner-img banner-1 wow fadeIn  animated home-3">
-                                    <img
-                                        className="border-radius-10"
-                                        src="assets/imgs/banner/banner-5.jpg"
-                                        alt=""
-                                    />
-                                    <div className="banner-text">
-                                        <span>Accessories</span>
-                                        <h4>
-                                            Save 17% on <br />
-                                            Autumn Hat
-                                        </h4>
-                                        <Link href="/products">
-                            <a>
-                                Shop Now <i className="fi-rs-arrow-right"></i>
-                            </a>
-                        </Link>
-                                    </div>
-                                </div>
-                                <div className="banner-img banner-2 wow fadeIn  animated mb-0">
-                                    <img
-                                        className="border-radius-10"
-                                        src="assets/imgs/banner/banner-7.jpg"
-                                        alt=""
-                                    />
-                                    <div className="banner-text">
-                                        <span>Smart Offer</span>
-                                        <h4>
-                                            Save 20% on <br />
-                                            Eardrop
-                                        </h4>
-                                        <Link href="/products">
-                            <a>
-                                Shop Now <i className="fi-rs-arrow-right"></i>
-                            </a>
-                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <IntroPopup />
+
+            <Layout noBreadcrumb="d-none" headerStyle="header-style-1">
+                <section className="home-slider position-relative pt-50">
+                    <Intro1 />
                 </section>
 
                 <section className="featured section-padding position-relative">
@@ -116,7 +69,7 @@ function Test() {
                 <section className="banners mb-15">
                     <div className="container">
                         <div className="row">
-                            <Banner5/>
+                            <Banner5 />
                         </div>
                     </div>
                 </section>
@@ -158,7 +111,7 @@ function Test() {
 
                 <section className="bg-grey-9 section-padding">
                     <div className="container pt-25 pb-25">
-                        <FetchTabSlider/>
+                        <FeatchTab2 />
                     </div>
                 </section>
 
@@ -191,9 +144,9 @@ function Test() {
                 </section>
 
                 <Bottom/>
+
+                <QuickView />
             </Layout>
         </>
     );
 }
-
-export default Test;

@@ -28,21 +28,21 @@ const Intro3 = () => {
             >
                 <SwiperSlide>
                     <div className="single-hero-slider single-animation-wrap">
-                        <div className="container">
+                        <div className="container"> 
                             <div className="slider-1-height-3 slider-animated-1">
                                 <div className="hero-slider-content-2">
-                                    <h4 className="animated">Trade-In Offer</h4>
-                                    <h2 className="animated fw-900">
-                                        Supper Value Deals
+                                    <h4 className="animated text-white">Trade-In Offer</h4>
+                                    <h2 className="animated fw-900 text-white">
+                                        Super Value Deals
                                     </h2>
-                                    <h1 className="animated fw-900 text-brand">
+                                    <h1 className="animated fw-900 text-brand text-white">
                                         On All Products
                                     </h1>
-                                    <p className="animated">
+                                    <p className="animated text-white">
                                         Save more with coupons & up to 70% off
                                     </p>
                                     <Link href="/products/shop-grid-right">
-                                        <a className="animated btn btn-brush btn-brush-3">
+                                        <a className="animated btn btn-brush btn-brush-3 text-white">
                                             Shop Now
                                         </a>
                                     </Link>

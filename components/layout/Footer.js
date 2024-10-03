@@ -24,7 +24,7 @@ const Footer = () => {
                                         <h5 className="font-size-15 ml-4 mb-0">
                                             ...and receive
                                             <strong>
-                                                $25 coupon for first shopping.
+                                                ₹100/- coupon for first shopping.
                                             </strong>
                                         </h5>
                                     </div>
@@ -66,12 +66,12 @@ const Footer = () => {
                                         Contact
                                     </h5>
                                     <p className="wow fadeIn animated">
-                                        <strong>Address: </strong>562 Wellington
-                                        Road, Street 32, San Francisco
+                                        <strong>Address: </strong>C-30, First Floor, Flat-5,
+                                        Paryavaran Complex, IGNOU Road, New Delhi - 110030
                                     </p>
                                     <p className="wow fadeIn animated">
-                                        <strong>Phone: </strong>+01 2222 365
-                                        /(+91) 01 2345 6789
+                                        <strong>Phone: </strong>+91 8178778607
+                                        /(+91) 9319616722
                                     </p>
                                     <p className="wow fadeIn animated">
                                         <strong>Hours: </strong>10:00 - 18:00,
@@ -166,10 +166,10 @@ const Footer = () => {
                             </div>
                             <div className="col-lg-4">
                                 <h5 className="widget-title wow fadeIn animated">
-                                    Install App
+                                    {/* Install App */}
                                 </h5>
                                 <div className="row">
-                                    <div className="col-md-8 col-lg-12">
+                                    {/* <div className="col-md-8 col-lg-12">
                                         <p className="wow fadeIn animated">
                                             From App Store or Google Play
                                         </p>
@@ -191,7 +191,7 @@ const Footer = () => {
                                                 />
                                             </a>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="col-md-4 col-lg-12 mt-md-3 mt-lg-0">
                                         <p className="mb-20 wow fadeIn animated">
                                             Secured Payment Gateways
@@ -215,14 +215,12 @@ const Footer = () => {
                         <div className="col-lg-6">
                             <p className="float-md-left font-sm text-muted mb-0">
                                 &copy; {new Date().getFullYear()},
-                                <strong className="text-brand"> Evara</strong> - React Redux Nextjs
-                                Ecommerce Template
-                            </p>
+                                <strong className="text-brand"> Throttle Space Pvt. Ltd.</strong></p>
                         </div>
                         <div className="col-lg-6">
                             <p className="text-lg-end text-start font-sm text-muted mb-0">
-                                Designed by 
-                                <a href="http://alithemes.com" target="_blank"> Alithemes.com</a>
+                                Brought to you by
+                                <a href="https://imgburst.com/" target="_blank"> Trinity Systems Pvt. Ltd.</a>
                                 . All rights reserved
                             </p>
                         </div>

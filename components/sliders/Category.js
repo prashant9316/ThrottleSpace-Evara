@@ -2,6 +2,7 @@ import SwiperCore, { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Link from "next/link";
+import Image from "next/image";
 
 SwiperCore.use([Navigation]);
 
@@ -9,42 +10,42 @@ const CategorySlider = () => {
     var data = [
         {
             id: 1,
-            title: "T-Shirt",
-            img: "category-thumb-1.jpg",
+            title: "FPV Drones",
+            img: "category-thumb-1.webp",
         },
         {
             id: 2,
-            title: "Bags",
-            img: "category-thumb-2.jpg",
+            title: "Frames",
+            img: "category-thumb-2.png",
         },
         {
             id: 3,
-            title: "Sandan",
+            title: "Motors",
             img: "category-thumb-3.jpg",
         },
         {
             id: 4,
-            title: "Scarf Cap",
+            title: "Electronics",
             img: "category-thumb-4.jpg",
         },
         {
             id: 5,
-            title: "Shoes",
+            title: "Batteries",
             img: "category-thumb-5.jpg",
         },
         {
             id: 6,
-            title: "Pillowcase",
+            title: "VTX & Camera",
             img: "category-thumb-6.jpg",
         },
         {
             id: 7,
-            title: "Jumpsuits",
+            title: "Radios",
             img: "category-thumb-7.jpg",
         },
         {
             id: 8,
-            title: "Hats",
+            title: "FPV Goggles",
             img: "category-thumb-8.jpg",
         },
     ];
@@ -52,7 +53,7 @@ const CategorySlider = () => {
         <>
             <Swiper
                 slidesPerView={6}
-                spaceBetween={20}
+                spaceBetween={2}
                 // autoplay={{
                 //     delay: 2500,
                 //     disableOnInteraction: false,
@@ -70,8 +71,10 @@ const CategorySlider = () => {
                             <figure className=" img-hover-scale overflow-hidden">
                                <Link href="/products/shop-grid-right">
                                     <a>
-                                        <img
-                                            src={`assets/imgs/shop/${item.img}`}
+                                        <Image
+                                            src={`/assets/imgs/shop/${item.img}`}
+                                            width={200}
+                                            height={200}
                                             alt=""
                                         />
                                     </a>

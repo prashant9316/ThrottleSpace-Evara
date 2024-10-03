@@ -14,16 +14,16 @@ const BrandSlider = dynamic(() => import("../components/sliders/Brand"));
 
 // Static imports for smaller components
 import Banner2 from "../components/elements/Banner2";
-// import Banner3 from "../components/elements/Banner3";
+import Banner3 from "../components/elements/Banner3";
 import Banner4 from "../components/elements/Banner4";
 import Banner5 from '../components/elements/Banner5';
 import BannerFeatures from "../components/elements/BannerFeatures";
 import Deals1 from "../components/elements/Deals1";
 import Deals2 from "../components/elements/Deals2";
-// import HomeBlog from "../components/elements/HomeBlog";
+import HomeBlog from "../components/elements/HomeBlog";
 import Bottom from '../components/elements/Bottom';
 
-function Home({ featuredProducts, newArrivals }) {
+function Home({ featuredProducts, newArrivals, blogPosts }) {
     useEffect(() => {
         if (typeof window !== "undefined") {
             window.WOW = require("wowjs");
@@ -33,7 +33,7 @@ function Home({ featuredProducts, newArrivals }) {
 
     return (
         <>
-            {/* <IntroPopup /> */}
+            <IntroPopup />
             <Layout noBreadcrumb="d-none" headerStyle="header-style-3">
                 <section className="home-slider position-relative pt-25 pb-20">
                     <div className="container">
@@ -87,7 +87,7 @@ function Home({ featuredProducts, newArrivals }) {
                     </div>
                 </section>
 
-                <section className="popular-categories mb-25">
+                <section className="popular-categories section-padding mt-15 mb-25">
                     <div className="container wow fadeIn animated">
                         <h3 className="section-title mb-20">
                             <span>Popular</span> Categories
@@ -173,7 +173,7 @@ function Home({ featuredProducts, newArrivals }) {
                     </div>
                 </section>
 
-                {/* <section className="section-padding">
+                <section className="section-padding">
                     <div className="container pt-25 pb-20">
                         <div className="row">
                             <div className="col-lg-6">
@@ -187,19 +187,9 @@ function Home({ featuredProducts, newArrivals }) {
                             </div>
                         </div>
                     </div>
-                </section> */}
-
-                <section className="section-padding">
-                    <div className="container pt-25 pb-20">
-                        <div className="row">
-                            <div className="col-12">
-                                <Banner4 />
-                            </div>
-                        </div>
-                    </div>
                 </section>
 
-                {/* <section className="mb-50">
+                <section className="mb-50">
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
@@ -207,7 +197,7 @@ function Home({ featuredProducts, newArrivals }) {
                             </div>
                         </div>
                     </div>
-                </section> */}
+                </section>
 
                 <Bottom />
             </Layout>
@@ -221,14 +211,14 @@ export async function getStaticProps() {
     // await fetchFeaturedProducts();
     const newArrivals = []
     // await fetchNewArrivals();
-    // const blogPosts = []
+    const blogPosts = []
     // await fetchBlogPosts();
 
     return {
         props: {
             featuredProducts,
             newArrivals,
-            // blogPosts,
+            blogPosts,
         },
         revalidate: 60 * 60, // Revalidate every hour
     };
